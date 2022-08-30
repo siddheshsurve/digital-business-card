@@ -5,7 +5,9 @@ import "../index.css"
 export default function ProfilePic () {
     return (
         <>
-            <h1>Profile Pic section</h1>
+            <div className="profile-pic-main">
+                
+            </div>
         </>
     )
 }
