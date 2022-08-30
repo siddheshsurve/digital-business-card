@@ -1,14 +1,16 @@
-body {
+html, body {
   margin: 0;
   font-family: sans-serif;
   background: #E5E5E5;
   color: #FFFFFF;
+  height: 100%;
 }
 
 .container {
+  margin-top: 8%;
   background-color: #23252C;
-  width: 50%;
-  height: 665px;
+  width: 80%;
+  height: 100%;
   border-radius: 4%;
   /* main */
   display: block;
@@ -17,14 +19,23 @@ body {
 }
 
 .profile-pic-main {
-  background-color: grey;
+  background-color: #23252C;
   width: 100%;
   height: 260px;
   border-radius: 4%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 } 
+
+.pic {
+  width: max-content;
+  height: auto;
+  padding: 8px;
+  border-radius: 6px;
+}
+
 .buttons {
   display: flex;
   /* background-color: grey; */
@@ -89,6 +100,7 @@ body {
 }
 
 .name {
+  padding: 10px;
   font-size: 25px;
   font-weight: 700;
   line-height: 15px;
@@ -98,6 +110,7 @@ body {
 }
 
 .post {
+  margin-bottom: 5px;
   font-size: 13px;
   font-weight: 400;
   line-height: 15px;
@@ -133,4 +146,56 @@ body {
   line-height: 130%;
   color: #DCDCDC;
   width: 80%;
+}
+
+.footer-main {
+  width: 100%;
+  height: 35px;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+  text-align: center;
+}
+
+.twit {
+  /* background-color: #23252C; */
+  width: 9%;
+  height: 25px;
+  margin-left: 24%;
+}
+.fb {
+  /* background-color: #23252C; */
+  width: 9%;
+  height: 25px;
+  margin-left: 6%;
+}
+.insta {
+  /* background-color: #23252C; */
+  width: 9%;
+  height: 25px;
+  margin-left: 6%;
+}
+.git {
+  /* background-color: #23252C; */
+  width: 9%;
+  height: 25px;
+  margin-left: 6%;
+}
+
+.twitpic {
+  width: 20px;
+}
+
+.fbpic {
+  width: 20px;
+}
+
+.instapic{
+  width: 20px;
+}
+
+.gitpic {
+  width: 20px;
 }

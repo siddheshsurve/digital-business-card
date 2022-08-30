@@ -1,5 +1,4 @@
 import React from "react"
-import ReactDOM from "react-dom"
 import "../index.css"
 
 export default function MainContent () {
@@ -19,7 +18,7 @@ export default function MainContent () {
             <p className="about">About</p>
             <p className="about-text">I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
             <p className="about">Intersets</p>
-            <p className="about-text">Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>  
+            <p className="about-text">Love to play Badminton, Cricket and Chess. Travel. Listning to Music. Programming. Photography. Cooking. </p>  
         </>
     )
 }
